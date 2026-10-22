@@ -68,9 +68,87 @@ services:
       - "127.0.0.1:80:80"
       - "127.0.0.1:443:443"
 
+  nginx-exporter:
+    image: nginx/nginx-prometheus-exporter:1.5.1
+    restart: unless-stopped
+    depends_on:
+      - nginx
+    command:
+      - --nginx.scrape-uri=http://nginx:8080/stub_status
+    networks:
+      - backend
+
+  mysql-exporter:
+    image: quay.io/prometheus/mysqld-exporter:v0.20.0
+    restart: unless-stopped
+    user: "1000:1000"
+    depends_on:
+      db:
+        condition: service_healthy
+    command:
+      - --config.my-cnf=/cfg/.my.cnf
+      - --mysqld.address=db:3306
+    volumes:
+      - ./mysqld-exporter/.my.cnf:/cfg/.my.cnf:ro
+    networks:
+      - backend
+
+  prometheus:
+    image: prom/prometheus:v3.15.1
+    restart: unless-stopped
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.path=/prometheus
+      - --storage.tsdb.retention.time=7d
+      - --storage.tsdb.retention.size=1GB
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    networks:
+      - backend
+    ports:
+      - "127.0.0.1:9091:9090"
+
+  grafana:
+    image: grafana/grafana:13.2.0
+    restart: unless-stopped
+    environment:
+      GF_SECURITY_ADMIN_USER: ${GRAFANA_ADMIN_USER:?GRAFANA_ADMIN_USER is required}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD:?GRAFANA_ADMIN_PASSWORD is required}
+      GF_AUTH_ANONYMOUS_ENABLED: "false"
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./grafana/provisioning/datasources:/etc/grafana/provisioning/datasources:ro
+      - ./grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards:ro
+      - ./grafana/dashboards:/var/lib/grafana/dashboards:ro
+    networks:
+      - backend
+    ports:
+      - "127.0.0.1:3001:3000"
+
+  cadvisor:
+    image: ghcr.io/google/cadvisor:0.55.1
+    restart: unless-stopped
+    privileged: true
+    cgroup: host
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /run/docker.sock:/var/run/docker.sock:ro
+      - /sys:/sys:ro
+      - /var/lib/docker:/var/lib/docker:ro
+      - /dev/disk:/dev/disk:ro
+    devices:
+      - /dev/kmsg:/dev/kmsg
+    networks:
+      - backend
+
 volumes:
   db_data:
   wordpress_data:
+  prometheus_data:
+  grafana_data:
 
 networks:
   backend:
