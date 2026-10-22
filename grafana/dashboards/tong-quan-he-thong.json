@@ -1,4 +1,4 @@
-{
+﻿{
   "annotations": {"list": []},
   "editable": false,
   "fiscalYearStartMonth": 0,
@@ -9,7 +9,7 @@
     {
       "type": "stat", "title": "Trạng thái target Prometheus", "id": 1,
       "gridPos": {"h": 5, "w": 8, "x": 0, "y": 0},
-      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "datasource": {"type": "prometheus", "uid": "cg2322d0mz668f"},
       "targets": [{"refId": "A", "expr": "up{job=~\"prometheus|cadvisor|nginx|mysql\"}", "legendFormat": "{{job}}"}],
       "fieldConfig": {"defaults": {"unit": "short", "min": 0, "max": 1, "mappings": [{"type": "value", "options": {"0": {"text": "DOWN", "color": "red"}, "1": {"text": "UP", "color": "green"}}}], "thresholds": {"mode": "absolute", "steps": [{"color": "red", "value": null}, {"color": "green", "value": 1}]}}, "overrides": []},
       "options": {"reduceOptions": {"calcs": ["lastNotNull"], "fields": "", "values": false}, "orientation": "auto", "colorMode": "background", "graphMode": "none", "justifyMode": "auto", "textMode": "auto", "wideLayout": true}
@@ -17,7 +17,7 @@
     {
       "type": "stat", "title": "Nginx UP", "id": 2,
       "gridPos": {"h": 5, "w": 4, "x": 8, "y": 0},
-      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "datasource": {"type": "prometheus", "uid": "cg2322d0mz668f"},
       "targets": [{"refId": "A", "expr": "nginx_up", "legendFormat": "nginx"}],
       "fieldConfig": {"defaults": {"unit": "short", "min": 0, "max": 1, "mappings": [{"type": "value", "options": {"0": {"text": "DOWN", "color": "red"}, "1": {"text": "UP", "color": "green"}}}], "thresholds": {"mode": "absolute", "steps": [{"color": "red", "value": null}, {"color": "green", "value": 1}]}}, "overrides": []},
       "options": {"reduceOptions": {"calcs": ["lastNotNull"], "fields": "", "values": false}, "colorMode": "background", "graphMode": "none", "textMode": "auto"}
@@ -25,55 +25,55 @@
     {
       "type": "stat", "title": "MySQL UP", "id": 3,
       "gridPos": {"h": 5, "w": 4, "x": 12, "y": 0},
-      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "datasource": {"type": "prometheus", "uid": "cg2322d0mz668f"},
       "targets": [{"refId": "A", "expr": "mysql_up", "legendFormat": "mysql"}],
       "fieldConfig": {"defaults": {"unit": "short", "min": 0, "max": 1, "mappings": [{"type": "value", "options": {"0": {"text": "DOWN", "color": "red"}, "1": {"text": "UP", "color": "green"}}}], "thresholds": {"mode": "absolute", "steps": [{"color": "red", "value": null}, {"color": "green", "value": 1}]}}, "overrides": []},
       "options": {"reduceOptions": {"calcs": ["lastNotNull"], "fields": "", "values": false}, "colorMode": "background", "graphMode": "none", "textMode": "auto"}
     },
     {
       "type": "timeseries", "title": "CPU container (cores)", "description": "Phạm vi là các container có trong cAdvisor; do thiếu Compose labels, danh sách có thể gồm container ngoài project. Chọn bằng container ID. Khi recreate container, có thể cần chọn lại ID.", "id": 4,
-      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 5}, "datasource": {"type": "prometheus", "uid": "prometheus"},
-      "targets": [{"refId": "A", "expr": "sum by (id) (rate(container_cpu_usage_seconds_total{id=~\"/docker/.+\", id=~\"$container_id\"}[2m]))", "legendFormat": "{{id}}"}],
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 5}, "datasource": {"type": "prometheus", "uid": "cg2322d0mz668f"},
+      "targets": [{"refId": "A", "expr": "sum by (id) (rate(container_cpu_usage_seconds_total{job=\"cadvisor\",id=~\"/docker/.+\",id=~\"$container_id\"}[2m]))", "legendFormat": "{{id}}"}],
       "fieldConfig": {"defaults": {"unit": "cores", "decimals": 3}, "overrides": []}, "options": {"legend": {"displayMode": "table", "placement": "bottom"}, "tooltip": {"mode": "multi", "sort": "desc"}}
     },
     {
       "type": "timeseries", "title": "RAM container (working set)", "description": "Dùng container_memory_working_set_bytes thực tế; không phải container_memory_usage_bytes. Phạm vi có thể gồm container ngoài project do cAdvisor thiếu Compose labels.", "id": 5,
-      "gridPos": {"h": 8, "w": 12, "x": 12, "y": 5}, "datasource": {"type": "prometheus", "uid": "prometheus"},
-      "targets": [{"refId": "A", "expr": "container_memory_working_set_bytes{id=~\"/docker/.+\", id=~\"$container_id\"}", "legendFormat": "{{id}}"}],
+      "gridPos": {"h": 8, "w": 12, "x": 12, "y": 5}, "datasource": {"type": "prometheus", "uid": "cg2322d0mz668f"},
+      "targets": [{"refId": "A", "expr": "container_memory_working_set_bytes{job=\"cadvisor\",id=~\"/docker/.+\",id=~\"$container_id\"}", "legendFormat": "{{id}}"}],
       "fieldConfig": {"defaults": {"unit": "bytes", "decimals": 1}, "overrides": []}, "options": {"legend": {"displayMode": "table", "placement": "bottom"}, "tooltip": {"mode": "multi", "sort": "desc"}}
     },
     {
       "type": "timeseries", "title": "Nginx request/giây", "id": 6,
-      "gridPos": {"h": 7, "w": 12, "x": 0, "y": 13}, "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "gridPos": {"h": 7, "w": 12, "x": 0, "y": 13}, "datasource": {"type": "prometheus", "uid": "cg2322d0mz668f"},
       "targets": [{"refId": "A", "expr": "rate(nginx_http_requests_total[2m])", "legendFormat": "requests/s"}],
       "fieldConfig": {"defaults": {"unit": "reqps", "decimals": 2}, "overrides": []}, "options": {"legend": {"displayMode": "list", "placement": "bottom"}}
     },
     {
       "type": "timeseries", "title": "Nginx kết nối", "description": "Nguồn stub_status chỉ cung cấp trạng thái kết nối; không có mã HTTP hoặc latency.", "id": 7,
-      "gridPos": {"h": 7, "w": 12, "x": 12, "y": 13}, "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "gridPos": {"h": 7, "w": 12, "x": 12, "y": 13}, "datasource": {"type": "prometheus", "uid": "cg2322d0mz668f"},
       "targets": [{"refId": "A", "expr": "nginx_connections_active", "legendFormat": "active"}, {"refId": "B", "expr": "nginx_connections_reading", "legendFormat": "reading"}, {"refId": "C", "expr": "nginx_connections_writing", "legendFormat": "writing"}, {"refId": "D", "expr": "nginx_connections_waiting", "legendFormat": "waiting"}],
       "fieldConfig": {"defaults": {"unit": "short", "decimals": 0}, "overrides": []}, "options": {"legend": {"displayMode": "list", "placement": "bottom"}}
     },
     {
       "type": "timeseries", "title": "MySQL uptime", "id": 8,
-      "gridPos": {"h": 7, "w": 8, "x": 0, "y": 20}, "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "gridPos": {"h": 7, "w": 8, "x": 0, "y": 20}, "datasource": {"type": "prometheus", "uid": "cg2322d0mz668f"},
       "targets": [{"refId": "A", "expr": "mysql_global_status_uptime", "legendFormat": "uptime"}], "fieldConfig": {"defaults": {"unit": "s"}, "overrides": []}, "options": {"legend": {"displayMode": "list", "placement": "bottom"}}
     },
     {
       "type": "timeseries", "title": "MySQL threads", "id": 9,
-      "gridPos": {"h": 7, "w": 8, "x": 8, "y": 20}, "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "gridPos": {"h": 7, "w": 8, "x": 8, "y": 20}, "datasource": {"type": "prometheus", "uid": "cg2322d0mz668f"},
       "targets": [{"refId": "A", "expr": "mysql_global_status_threads_connected", "legendFormat": "connected"}, {"refId": "B", "expr": "mysql_global_status_threads_running", "legendFormat": "running"}], "fieldConfig": {"defaults": {"unit": "short", "decimals": 0}, "overrides": []}, "options": {"legend": {"displayMode": "list", "placement": "bottom"}}
     },
     {
       "type": "timeseries", "title": "MySQL query và connection/giây", "id": 10,
-      "gridPos": {"h": 7, "w": 8, "x": 16, "y": 20}, "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "gridPos": {"h": 7, "w": 8, "x": 16, "y": 20}, "datasource": {"type": "prometheus", "uid": "cg2322d0mz668f"},
       "targets": [{"refId": "A", "expr": "rate(mysql_global_status_queries[2m])", "legendFormat": "queries/s"}, {"refId": "B", "expr": "rate(mysql_global_status_connections[2m])", "legendFormat": "connections/s"}], "fieldConfig": {"defaults": {"unit": "ops", "decimals": 2}, "overrides": []}, "options": {"legend": {"displayMode": "list", "placement": "bottom"}}
     }
   ],
   "refresh": "15s",
   "schemaVersion": 41,
   "tags": ["quang-ba-san-pham", "prometheus"],
-  "templating": {"list": [{"name": "container_id", "label": "Container ID (cAdvisor)", "type": "query", "datasource": {"type": "prometheus", "uid": "prometheus"}, "definition": "label_values(container_cpu_usage_seconds_total{id=~\"/docker/.+\"}, id)", "query": {"query": "label_values(container_cpu_usage_seconds_total{id=~\"/docker/.+\"}, id)", "refId": "StandardVariableQuery"}, "multi": true, "includeAll": true, "allValue": ".*", "refresh": 1, "sort": 1, "hide": 0}]},
+  "templating": {"list": [{"name": "container_id", "label": "Container ID (cAdvisor)", "type": "query", "datasource": {"type": "prometheus", "uid": "cg2322d0mz668f"}, "definition": "label_values(container_cpu_usage_seconds_total{job=\"cadvisor\",id=~\"/docker/.+\"}, id)", "query": {"query": "label_values(container_cpu_usage_seconds_total{job=\"cadvisor\",id=~\"/docker/.+\"}, id)", "refId": "StandardVariableQuery"}, "multi": true, "includeAll": true, "allValue": ".*", "refresh": 1, "sort": 1, "hide": 0}]},
   "time": {"from": "now-15m", "to": "now"},
   "timepicker": {},
   "timezone": "browser",

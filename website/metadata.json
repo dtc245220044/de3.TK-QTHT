@@ -1,0 +1,20 @@
+﻿{
+    "format": "wordpress-website-metadata-v1",
+    "source_ids": {
+        "front_page": 6,
+        "navigation": 5,
+        "global_styles": 7
+    },
+    "site": {
+        "name": "Giới thiệu CPU AMD Ryzen",
+        "description": "Tìm hiểu bộ xử lý AMD Ryzen",
+        "show_on_front": "page",
+        "permalink_structure": "",
+        "theme": {
+            "stylesheet": "twentytwentyfour",
+            "template": "twentytwentyfour",
+            "name": "Twenty Twenty-Four",
+            "version": "1.3"
+        }
+    }
+}

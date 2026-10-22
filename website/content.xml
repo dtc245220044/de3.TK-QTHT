@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wp="http://wordpress.org/export/1.2/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel>
+<title>Giới thiệu CPU AMD Ryzen</title><link>https://localhost</link><description>Website content export</description><wp:wxr_version>1.2</wp:wxr_version><wp:base_site_url>https://localhost</wp:base_site_url><wp:base_blog_url>https://localhost</wp:base_blog_url>
+<item><title>Trang mẫu</title><dc:creator><![CDATA[website-export]]></dc:creator><content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Đây là trang mẫu. Nó khác với bài viết bởi vì nó thường cố định và hiển thị trong menu của bạn. Nhiều người bắt đầu với trang Giới thiệu nơi bạn chia sẻ thông tin cho những ai ghé thăm. Nó có thể bắt đầu như thế này:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><p>Chào bạn! Tôi là một người bán hàng, và đây là website của tôi. Tôi sống ở Hà Nội, có một gia đình nhỏ, và tôi thấy cách sử dụng WordPress rất thú vị.</p></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>... hoặc cái gì đó như thế này:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><p>Công ty chúng tôi được thành lập năm 2010, và cung cấp dịch vụ chất lượng cho rất nhiều sự kiện tại khắp Việt Nam. Với văn phòng đặt tại Hà Nội, TP. Hồ Chí Minh cùng hơn 40 nhân sự, chúng tôi là nơi nhiều đối tác tin tưởng giao cho tổ chức các sự kiện lớn.</p></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Là một người dùng WordPress mới, bạn nên ghé thăm <a href="https://localhost/wp-admin/">bảng tin</a> để xóa trang này và tạo trang mới cho nội dung của chính bạn. Chúc bạn vui vẻ!</p>
+<!-- /wp:paragraph -->]]></content:encoded><excerpt:encoded><![CDATA[]]></excerpt:encoded><wp:post_id>2</wp:post_id><wp:post_date>2026-10-22 20:19:00</wp:post_date><wp:post_name>trang-mau</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type></item>
+<item><title>Trang chủ</title><dc:creator><![CDATA[website-export]]></dc:creator><content:encoded><![CDATA[<!-- wp:heading -->
+<h2 class="wp-block-heading">Tìm hiểu thế giới AMD Ryzen</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Tìm hiểu các bộ xử lý AMD Ryzen dành cho máy tính để bàn. Khám phá hình ảnh, thông số kỹ thuật và những đặc điểm của từng sản phẩm trong danh sách giới thiệu.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://localhost/?page_id=11">Tìm hiểu sản phẩm</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":46,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://localhost/wp-content/uploads/2026/10/images-7.jpg" alt="Ảnh minh họa" class="wp-image-46"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">CPU nổi bật</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":54,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://localhost/wp-content/uploads/2026/10/images-9.jpg" alt="" class="wp-image-54"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">AMD Ryzen 5 9600X</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>6 nhân, 12 luồng · Xung tăng tốc tối đa 5,4 GHz</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://localhost/?page_id=17">Xem chi tiết</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":55,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://localhost/wp-content/uploads/2026/10/images-4-1.jpg" alt="" class="wp-image-55"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">AMD Ryzen 7 9700X</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>8 nhân, 16 luồng · Xung tăng tốc tối đa 5,5 GHz</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://localhost/?page_id=19">Xem chi tiết</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->]]></content:encoded><excerpt:encoded><![CDATA[]]></excerpt:encoded><wp:post_id>6</wp:post_id><wp:post_date>2026-10-23 03:24:51</wp:post_date><wp:post_name>trang-chu</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type></item>
+<item><title>Giới thiệu</title><dc:creator><![CDATA[website-export]]></dc:creator><content:encoded><![CDATA[<!-- wp:heading -->
+<h2 class="wp-block-heading">Về Khám phá AMD Ryzen</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Khám phá AMD Ryzen là website thực hành giới thiệu một số bộ xử lý AMD Ryzen dành cho máy tính để bàn. Website cung cấp hình ảnh, thông số và liên kết nguồn để người xem tìm hiểu từng sản phẩm.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Nội dung website</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Giới thiệu bốn mẫu CPU: Ryzen 5 9600X, Ryzen 7 9700X, Ryzen 7 9800X3D và Ryzen 9 9950X.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Trình bày thông số kỹ thuật theo cùng một bố cục.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Dẫn nguồn thông số từ trang sản phẩm chính thức của AMD</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Lưu ý</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Đây là website phục vụ học tập, không phải website chính thức của AMD và không đại diện cho hãng. Tên sản phẩm, nhãn hiệu và hình ảnh thuộc về các chủ sở hữu tương ứng.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://localhost/?page_id=11">Khám phá sản phẩm</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded><excerpt:encoded><![CDATA[]]></excerpt:encoded><wp:post_id>9</wp:post_id><wp:post_date>2026-10-23 03:25:40</wp:post_date><wp:post_name>gioi-thieu</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type></item>
+<item><title>Sản phẩm</title><dc:creator><![CDATA[website-export]]></dc:creator><content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Tìm hiểu bốn bộ xử lý AMD Ryzen. Chọn sản phẩm để xem hình ảnh và thông số kỹ thuật chi tiết.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":54,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://localhost/wp-content/uploads/2026/10/images-9.jpg" alt="" class="wp-image-54"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">AMD Ryzen 5 9600X</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>6 nhân, 12 luồng · Xung tăng tốc tối đa 5,4 GHz</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://localhost/?page_id=17">Xem chi tiết</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":55,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://localhost/wp-content/uploads/2026/10/images-4-1.jpg" alt="" class="wp-image-55"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">AMD Ryzen 7 9700X</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>8 nhân, 16 luồng · Xung tăng tốc tối đa 5,5 GHz</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://localhost/?page_id=19">Xem chi tiết</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":57,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://localhost/wp-content/uploads/2026/10/images-2-3.jpg" alt="" class="wp-image-57"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">AMD Ryzen 7 9800X3D</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>8 nhân, 16 luồng · Bộ nhớ đệm L3 96 MB</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://localhost/?page_id=21">Xem chi tiết</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":58,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://localhost/wp-content/uploads/2026/10/images-6-1.jpg" alt="" class="wp-image-58"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">AMD Ryzen 9 9950X</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>16 nhân, 32 luồng · Xung tăng tốc tối đa 5,7 GHz</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://localhost/?page_id=23">Xem chi tiết</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded><excerpt:encoded><![CDATA[]]></excerpt:encoded><wp:post_id>11</wp:post_id><wp:post_date>2026-10-23 03:26:01</wp:post_date><wp:post_name>san-pham</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type></item>
+<item><title>Liên hệ</title><dc:creator><![CDATA[website-export]]></dc:creator><content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Nếu bạn muốn góp ý về nội dung hoặc thông báo thông số cần chỉnh sửa, vui lòng liên hệ người thực hiện website theo thông tin bên dưới.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Thông tin liên hệ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Người thực hiện: Trần Ngọc Hải</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Email: dtc245220044@ictu.edu.vn</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Mục đích: tiếp nhận góp ý</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Lưu ý</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Website phục vụ mục đích học tập, không bán hàng và không tiếp nhận yêu cầu bảo hành sản phẩm AMD. Vui lòng liên hệ hãng hoặc đơn vị bán hàng đối với các vấn đề bảo hành.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://localhost/?page_id=11">Khám phá sản phẩm </a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded><excerpt:encoded><![CDATA[]]></excerpt:encoded><wp:post_id>13</wp:post_id><wp:post_date>2026-10-23 03:26:14</wp:post_date><wp:post_name>lien-he</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type></item>
+<item><title>AMD Ryzen 5 9600X</title><dc:creator><![CDATA[website-export]]></dc:creator><content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>AMD Ryzen 5 9600X là bộ xử lý máy tính để bàn thuộc dòng Ryzen 9000, sử dụng kiến trúc Zen 5. Sản phẩm có 6 nhân, 12 luồng và xung nhịp tăng tốc tối đa 5,4 GHz.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":31,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://localhost/wp-content/uploads/2026/10/images-1.jpg" alt="Bộ xử lý AMD Ryzen 5 9600X" class="wp-image-31"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":32,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://localhost/wp-content/uploads/2026/10/images.jpg" alt="Bộ xử lý AMD Ryzen 5 9600X" class="wp-image-32"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Thông số kĩ thuật</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Thông số</th><th>Giá trị</th></tr></thead><tbody><tr><td>Dòng sản phẩm</td><td>AMD Ryzen 9000</td></tr><tr><td>Kiến trúc</td><td>Zen 5</td></tr><tr><td>Số nhân / luồng</td><td>6 nhân / 12 luồng</td></tr><tr><td>Xung nhịp cơ bản</td><td>3,9 GHz</td></tr><tr><td>Xung nhịp tăng tốc tối đa</td><td>Lên đến 5,4 GHz</td></tr><tr><td>Bộ nhớ đệm L3</td><td>32 MB</td></tr><tr><td>TDP mặc định</td><td>65 W</td></tr><tr><td>Socket</td><td>AM5</td></tr><tr><td>Loại RAM hỗ trợ</td><td>DDR5</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p>Nguồn thông số: <a href="https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html">AMD</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://localhost/?page_id=11">Xem tất cả CPU</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded><excerpt:encoded><![CDATA[]]></excerpt:encoded><wp:post_id>17</wp:post_id><wp:post_date>2026-10-23 03:53:29</wp:post_date><wp:post_name>amd-ryzen-59600x</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type></item>
+<item><title>AMD Ryzen 7 9700X</title><dc:creator><![CDATA[website-export]]></dc:creator><content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>AMD Ryzen 7 9700X là bộ xử lý máy tính để bàn thuộc dòng Ryzen 9000, sử dụng kiến trúc Zen 5. Sản phẩm có 8 nhân, 16 luồng và xung nhịp tăng tốc tối đa 5,5 GHz.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":37,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://localhost/wp-content/uploads/2026/10/images-3.jpg" alt="Bộ xử lý AMD Ryzen 7 9700X" class="wp-image-37"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":60,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://localhost/wp-content/uploads/2026/10/images-2-4.jpg" alt="" class="wp-image-60"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Thông số kĩ thuật</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Thông số</th><th>Giá trị</th></tr></thead><tbody><tr><td>Dòng sản phẩm</td><td>AMD Ryzen 9000</td></tr><tr><td>Kiến trúc</td><td>Zen 5</td></tr><tr><td>Số nhân / luồng</td><td>8 nhân / 16 luồng</td></tr><tr><td>Xung nhịp cơ bản</td><td>3,8 GHz</td></tr><tr><td>Xung nhịp tăng tốc tối đa</td><td>Lên đến 5,5 GHz</td></tr><tr><td>Bộ nhớ đệm L3</td><td>32 MB</td></tr><tr><td>TDP mặc định</td><td>65 W</td></tr><tr><td>Socket</td><td>AM5</td></tr><tr><td>Loại RAM hỗ trợ</td><td>DDR5</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p>Nguồn thông số: <a href="https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html">AMD</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://localhost/?page_id=11">Xem tất cả CPU</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded><excerpt:encoded><![CDATA[]]></excerpt:encoded><wp:post_id>19</wp:post_id><wp:post_date>2026-10-23 03:54:14</wp:post_date><wp:post_name>amd-ryzen-7-9700x</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type></item>
+<item><title>AMD Ryzen 7 9800X3D</title><dc:creator><![CDATA[website-export]]></dc:creator><content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>AMD Ryzen 7 9800X3D là bộ xử lý máy tính để bàn thuộc dòng Ryzen 9000, sử dụng kiến trúc Zen 5. Sản phẩm có 8 nhân, 16 luồng, bộ nhớ đệm L3 96 MB và xung nhịp tăng tốc tối đa 5,2 GHz.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":41,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://localhost/wp-content/uploads/2026/10/images-5.jpg" alt="Bộ xử lí AMD Ryzen 7 9800X3D" class="wp-image-41"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":62,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://localhost/wp-content/uploads/2026/10/images-2-5.jpg" alt="" class="wp-image-62"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Thông số kĩ thuật</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Thông số</th><th>Giá trị</th></tr></thead><tbody><tr><td>Dòng sản phẩm</td><td>AMD Ryzen 9000</td></tr><tr><td>Kiến trúc</td><td>Zen 5</td></tr><tr><td>Số nhân / luồng</td><td>8 nhân / 16 luồng</td></tr><tr><td>Xung nhịp cơ bản</td><td>4,7 GHz</td></tr><tr><td>Xung nhịp tăng tốc tối đa</td><td>Lên đến 5,2 GHz</td></tr><tr><td>Bộ nhớ đệm L3</td><td>96 MB</td></tr><tr><td>TDP mặc định</td><td>120 W</td></tr><tr><td>Socket</td><td>AM5</td></tr><tr><td>Loại RAM hỗ trợ</td><td>DDR5</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p>Nguồn thông số: <a href="https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html">AMD</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://localhost/?page_id=11">Xem tất cả CPU</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded><excerpt:encoded><![CDATA[]]></excerpt:encoded><wp:post_id>21</wp:post_id><wp:post_date>2026-10-23 03:54:49</wp:post_date><wp:post_name>amd-ryzen-7-9800x3d</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type></item>
+<item><title>AMD Ryzen 9 9950X</title><dc:creator><![CDATA[website-export]]></dc:creator><content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>AMD Ryzen 9 9950X là bộ xử lý máy tính để bàn thuộc dòng Ryzen 9000, sử dụng kiến trúc Zen 5. Sản phẩm có 16 nhân, 32 luồng và xung nhịp tăng tốc tối đa 5,7 GHz.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":46,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://localhost/wp-content/uploads/2026/10/images-7.jpg" alt="Bộ xử lí AMD Ryzen 9 9950X" class="wp-image-46"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":64,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://localhost/wp-content/uploads/2026/10/images-6-2.jpg" alt="" class="wp-image-64"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Thông số kĩ thuật</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Thông số</th><th>Giá trị</th></tr></thead><tbody><tr><td>Dòng sản phẩm</td><td>AMD Ryzen 9000</td></tr><tr><td>Kiến trúc</td><td>Zen 5</td></tr><tr><td>Số nhân / luồng</td><td>16 nhân / 32 luồng</td></tr><tr><td>Xung nhịp cơ bản</td><td>4,3 GHz</td></tr><tr><td>Xung nhịp tăng tốc tối đa</td><td>Lên đến 5,7 GHz</td></tr><tr><td>Bộ nhớ đệm L3</td><td>64 MB</td></tr><tr><td>TDP mặc định</td><td>170 W</td></tr><tr><td>Socket</td><td>AM5</td></tr><tr><td>Loại RAM hỗ trợ</td><td>DDR5</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p>Nguồn thông số: AMD</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://localhost/?page_id=11">Xem tất cả CPU</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded><excerpt:encoded><![CDATA[]]></excerpt:encoded><wp:post_id>23</wp:post_id><wp:post_date>2026-10-23 03:55:07</wp:post_date><wp:post_name>amd-ryzen-9-9950x</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>page</wp:post_type></item>
+<item><title>Điều hướng</title><dc:creator><![CDATA[website-export]]></dc:creator><content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Trang chủ","type":"page","id":6,"url":"https://localhost/","kind":"post-type"} /-->
+
+<!-- wp:navigation-link {"label":"Giới thiệu","type":"page","id":9,"url":"https://localhost/?page_id=9","kind":"post-type"} /-->
+
+<!-- wp:navigation-link {"label":"Sản phẩm","type":"page","id":11,"url":"https://localhost/?page_id=11","kind":"post-type"} /-->
+
+<!-- wp:navigation-link {"label":"Liên hệ","type":"page","id":13,"url":"https://localhost/?page_id=13","kind":"post-type"} /-->]]></content:encoded><excerpt:encoded><![CDATA[]]></excerpt:encoded><wp:post_id>5</wp:post_id><wp:post_date>2026-10-23 03:22:42</wp:post_date><wp:post_name>navigation</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>wp_navigation</wp:post_type></item>
+<item><title>Custom Styles</title><dc:creator><![CDATA[website-export]]></dc:creator><content:encoded><![CDATA[{"styles":{"color":{"background":"#171a21","text":"#f1f1f1"},"elements":{"link":{"color":{"text":"#f1f1f1"}},"button":{"color":{"text":"#f35b1c"}}},"css":"\/* ===== M\u00c0U CHUNG ===== *\/\nbody:not(.wp-admin):not(.login) {\n  --space-bg: #10091d;\n  --space-panel: #21132f;\n  --space-text: #f3efff;\n  --space-muted: #cec1df;\n  --space-green: #86efac;\n\n  --wp--preset--color--base: #10091d;\n  --wp--preset--color--base-2: #21132f;\n  --wp--preset--color--contrast: #f3efff;\n  --wp--preset--color--contrast-2: #cec1df;\n  --wp--preset--color--contrast-3: #ab93c4;\n\n  position: relative;\n  isolation: isolate;\n  color: var(--space-text);\n  background: var(--space-bg);\n}\n\n\/* ===== TINH V\u00c2N T\u00cdM ===== *\/\nbody:not(.wp-admin):not(.login)::before {\n  content: \"\";\n  position: fixed;\n  inset: 0;\n  z-index: 0;\n  pointer-events: none;\n\n  background:\n    radial-gradient(\n      ellipse at 12% 25%,\n      rgba(109, 40, 217, 0.45),\n      transparent 52%\n    ),\n    radial-gradient(\n      ellipse at 85% 60%,\n      rgba(147, 51, 234, 0.32),\n      transparent 48%\n    ),\n    radial-gradient(\n      ellipse at 50% 95%,\n      rgba(59, 49, 164, 0.38),\n      transparent 55%\n    );\n\n  background-size: 140% 140%;\n  animation: space-nebula 35s ease-in-out infinite alternate;\n}\n\n\/* ===== C\u00c1C L\u1edaP SAO ===== *\/\nbody:not(.wp-admin):not(.login)::after {\n  content: \"\";\n  position: fixed;\n  inset: 0;\n  z-index: 0;\n  pointer-events: none;\n\n  background-image:\n    radial-gradient(\n      1px 1px at 23px 31px,\n      rgba(255, 255, 255, 0.9) 90%,\n      transparent 100%\n    ),\n    radial-gradient(\n      1px 1px at 79px 117px,\n      rgba(219, 195, 255, 0.75) 90%,\n      transparent 100%\n    ),\n    radial-gradient(\n      1.5px 1.5px at 141px 65px,\n      rgba(255, 255, 255, 0.8) 90%,\n      transparent 100%\n    ),\n    radial-gradient(\n      2px 2px at 53px 187px,\n      rgba(190, 169, 255, 0.7) 65%,\n      transparent 100%\n    );\n\n  background-size:\n    173px 229px,\n    283px 191px,\n    367px 313px,\n    467px 389px;\n\n  background-repeat: repeat;\n  opacity: 0.65;\n  animation: space-stars 40s ease-in-out infinite alternate;\n}\n\n\/* N\u1ed9i dung n\u1eb1m tr\u00ean n\u1ec1n, kh\u00f4ng \u0111\u1ed5i v\u1ecb tr\u00ed thanh qu\u1ea3n tr\u1ecb *\/\nbody:not(.wp-admin):not(.login) .wp-site-blocks {\n  position: relative;\n  z-index: 1;\n  color: var(--space-text);\n  background-color: transparent;\n}\n\n\/* ===== CH\u1eee ===== *\/\nbody:not(.wp-admin):not(.login)\n.wp-site-blocks :where(h1, h2, h3, h4, h5, h6, p, li, label) {\n  color: var(--space-text);\n}\n\nbody:not(.wp-admin):not(.login)\n.wp-site-blocks figcaption {\n  color: var(--space-muted);\n}\n\n\/* ===== LI\u00caN K\u1ebeT ===== *\/\nbody:not(.wp-admin):not(.login)\n.wp-site-blocks a:not(.wp-element-button):not(.wp-block-button__link) {\n  color: var(--space-green);\n  text-underline-offset: 0.18em;\n}\n\nbody:not(.wp-admin):not(.login)\n.wp-site-blocks a:not(.wp-element-button):not(.wp-block-button__link):hover {\n  color: #bbf7d0;\n}\n\n\/* ===== N\u00daT XANH L\u00c1 ===== *\/\nbody:not(.wp-admin):not(.login)\n.wp-site-blocks :is(.wp-element-button, .wp-block-button__link) {\n  color: #102018;\n  background: var(--space-green);\n  border: 1px solid var(--space-green);\n  border-radius: 10px;\n  text-decoration: none;\n  box-shadow: 0 0 18px rgba(134, 239, 172, 0.15);\n  transition:\n    transform 180ms ease,\n    box-shadow 180ms ease,\n    background-color 180ms ease;\n}\n\nbody:not(.wp-admin):not(.login)\n.wp-site-blocks :is(.wp-element-button, .wp-block-button__link):hover {\n  color: #102018;\n  background: #4ade80;\n  border-color: #4ade80;\n  box-shadow: 0 0 26px rgba(134, 239, 172, 0.3);\n  transform: translateY(-2px);\n}\n\n\/* ===== B\u1ea2NG TH\u00d4NG S\u1ed0 ===== *\/\nbody:not(.wp-admin):not(.login)\n.wp-site-blocks .wp-block-table table {\n  color: var(--space-text);\n  background: var(--space-panel);\n  border-collapse: collapse;\n}\n\nbody:not(.wp-admin):not(.login)\n.wp-site-blocks .wp-block-table :is(th, td) {\n  color: var(--space-text);\n  border: 1px solid #66517c;\n  padding: 12px 16px;\n}\n\nbody:not(.wp-admin):not(.login)\n.wp-site-blocks .wp-block-table thead {\n  background: #38204f;\n  border-color: #66517c;\n}\n\nbody:not(.wp-admin):not(.login)\n.wp-site-blocks .wp-block-table tbody tr {\n  background: var(--space-panel);\n}\n\nbody:not(.wp-admin):not(.login)\n.wp-site-blocks .wp-block-table tbody tr:nth-child(even) {\n  background: #2b1b3b;\n}\n\n\/* ===== MENU \u0110I\u1ec6N THO\u1ea0I ===== *\/\nbody:not(.wp-admin):not(.login)\n.wp-site-blocks .wp-block-navigation__responsive-container.is-menu-open {\n  color: var(--space-text);\n  background: var(--space-bg);\n}\n\nbody:not(.wp-admin):not(.login)\n.wp-site-blocks :is(\n  .wp-block-navigation__responsive-container-open,\n  .wp-block-navigation__responsive-container-close\n) {\n  color: var(--space-text);\n}\n\n\/* ===== FOCUS KHI D\u00d9NG B\u00c0N PH\u00cdM ===== *\/\nbody:not(.wp-admin):not(.login)\n.wp-site-blocks :is(a, button, input, select, textarea):focus-visible {\n  outline: 3px solid var(--space-green);\n  outline-offset: 4px;\n}\n\n\/* ===== CHUY\u1ec2N \u0110\u1ed8NG ===== *\/\n@keyframes space-nebula {\n  from {\n    background-position: 0% 0%;\n  }\n  to {\n    background-position: 100% 70%;\n  }\n}\n\n@keyframes space-stars {\n  from {\n    background-position:\n      0 0, 0 0, 0 0, 0 0;\n    opacity: 0.55;\n  }\n  to {\n    background-position:\n      8px -20px,\n      -12px -12px,\n      6px -28px,\n      -8px -16px;\n    opacity: 0.8;\n  }\n}\n\n\/* T\u00f4n tr\u1ecdng thi\u1ebft l\u1eadp gi\u1ea3m chuy\u1ec3n \u0111\u1ed9ng *\/\n@media (prefers-reduced-motion: reduce) {\n  body:not(.wp-admin):not(.login)::before,\n  body:not(.wp-admin):not(.login)::after {\n    animation: none;\n  }\n\n  body:not(.wp-admin):not(.login)\n  .wp-site-blocks :is(.wp-element-button, .wp-block-button__link) {\n    transition: none;\n  }\n\n  body:not(.wp-admin):not(.login)\n  .wp-site-blocks :is(.wp-element-button, .wp-block-button__link):hover {\n    transform: none;\n  }\n}"},"settings":{"color":{"palette":{"theme":[{"color":"#f9f9f9","name":"Base","slug":"base"},{"color":"#ffffff","name":"Base \/ Two","slug":"base-2"},{"color":"#111111","name":"Contrast","slug":"contrast"},{"color":"#636363","name":"Contrast \/ Two","slug":"contrast-2"},{"color":"#A4A4A4","name":"Contrast \/ Three","slug":"contrast-3"},{"color":"#cfcabe","name":"Accent","slug":"accent"},{"color":"#c2a990","name":"Accent \/ Two","slug":"accent-2"},{"color":"#f5f5f0","name":"Accent \/ Three","slug":"accent-3"},{"color":"#b1c5a4","name":"Accent \/ Four","slug":"accent-4"},{"color":"#b5bdbc","name":"Accent \/ Five","slug":"accent-5"}]}}},"isGlobalStylesUserThemeJSON":true,"version":3}]]></content:encoded><excerpt:encoded><![CDATA[]]></excerpt:encoded><wp:post_id>7</wp:post_id><wp:post_date>2026-10-23 03:23:44</wp:post_date><wp:post_name>wp-global-styles-twentytwentyfour</wp:post_name><wp:status>publish</wp:status><wp:post_parent>0</wp:post_parent><wp:menu_order>0</wp:menu_order><wp:post_type>wp_global_styles</wp:post_type></item>
+</channel></rss>
